@@ -1,0 +1,9 @@
+animation = {
+	name = "arrow_idle"
+	file = "arrow_idle.anim"
+}
+
+animation = {
+	name = "arrow_move"
+	file = "arrow_move.anim"
+}

@@ -1,0 +1,109 @@
+entity = {
+	name = "seagulls"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "eagle"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "windmill"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "black_bear"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "brown_bear"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "panda_bear"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "polar_bear"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "crocodile"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "kangaroo"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "seal"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "zebra"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "whale"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "guanaco"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "elephant_AO"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "elephant_indian"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "vulture"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "bison"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "camel"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "moose"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "giraffe"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "pyramids"
+	pdxmesh = "empty"		
+}
+
+entity = {
+	name = "desert_skeleton_mesh"
+	pdxmesh = "empty"
+}

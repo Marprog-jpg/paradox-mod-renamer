@@ -1,0 +1,1042 @@
+#westerngfx
+#easterngfx
+#muslimgfx
+#indiangfx
+#asiangfx
+#africangfx
+#northamericagfx
+#southamericagfx
+
+#### Development buildings ########################################################
+
+entity = {
+	name = "tax_building_01"
+	pdxmesh = "empty"
+}
+entity = {
+	name = "tax_building_02"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "tax_building_03"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "tax_building_04"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "production_building_01"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "production_building_02"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "production_building_03"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "production_building_04"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "manpower_building_01"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "manpower_building_02"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "manpower_building_03"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "manpower_building_04"
+	clone = "tax_building_01"
+}
+
+#### Latin buildings ########################################################
+
+entity = {
+	name = "westerngfx_navalyard"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "westerngfx_port"
+	pdxmesh = "default_port"
+}
+
+entity = {
+	name = "easterngfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "muslimgfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "indiangfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "asiangfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "africangfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "northamericagfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "southamericagfx_port"
+	clone = "westerngfx_port"
+}
+
+entity = {
+	name = "westerngfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_house_4_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_farm_estate"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_textile"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_fine_arts_academy"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_plantations"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_refinery"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_tradecompany"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_university"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_weapons"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_manufactory_wharf"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_fort_15th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_fort_16th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_fort_17th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "westerngfx_fort_18th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "muslimgfx_fort_15th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "muslimgfx_fort_16th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "muslimgfx_fort_17th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_fort_18th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "africangfx_fort_15th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "africangfx_fort_16th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "africangfx_fort_17th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_fort_18th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "indiangfx_fort_15th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "indiangfx_fort_16th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_fort_17th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_fort_18th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "asiangfx_fort_15th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_fort_15th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_fort_15th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "southamericagfx_fort_16th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_fort_17th"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_fort_18th"
+	clone = "tax_building_01"
+}
+
+entity = {
+	name = "trade_wind_arrow"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "capital2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "nationalfocus2"
+	clone = "tax_building_01"
+}
+
+###############################################################
+#######   												 ######
+#######                    Eastern 			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "easterngfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "easterngfx_house_4_4"
+	clone = "tax_building_01"
+}
+
+###############################################################
+#######   												 ######
+#######                    Muslim 			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "muslimgfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "muslimgfx_house_4_4"
+	clone = "tax_building_01"
+}
+###############################################################
+#######   												 ######
+#######                    indian 			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "indiangfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "indiangfx_house_4_4"
+	clone = "tax_building_01"
+}
+
+###############################################################
+#######   												 ######
+#######                    African 			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "africangfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "africangfx_house_4_4"
+	clone = "tax_building_01"
+}	
+
+###############################################################
+#######   												 ######
+#######                    Asian 			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "asiangfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "asiangfx_house_4_4"
+	clone = "tax_building_01"
+}
+
+###############################################################
+#######   												 ######
+#######                 north american 	     			 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "northamericagfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "northamericagfx_house_4_4"
+	clone = "tax_building_01"
+}
+
+
+
+###############################################################
+#######   												 ######
+#######                 south american 	     			 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	name = "southamericagfx_city_0"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_city_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_city_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_city_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_castle_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_castle_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_castle_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_1_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_1_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_1_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_1_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_2_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_2_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_2_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_2_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_3_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_3_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_3_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_3_4"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_4_1"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_4_2"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_4_3"
+	clone = "tax_building_01"
+}
+entity = {
+	name = "southamericagfx_house_4_4"
+	clone = "tax_building_01"
+}

@@ -1,0 +1,22 @@
+objectTypes = {
+	pdxmesh = {
+		name = "empty"
+		file = "gfx/models/empty.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "arrow"
+		file = "gfx/models/arrow.mesh"
+		animation = { id = "idle"		type = "arrow_idle" }
+		animation = { id = "walk"		type = "arrow_move" }
+		scale = 6.0
+	}
+	
+	pdxmesh = {
+		name = "default_port"
+		file = "gfx/models/default_port.mesh"
+		scale = 1.0
+	}
+}
+

@@ -1,0 +1,9 @@
+entity = {
+	name = "reformation_reformed"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "reformation_protestant"
+	pdxmesh = "empty"
+}

@@ -1,0 +1,9 @@
+entity = {
+	name = "aow_reformation_reformed"
+	pdxmesh = "empty"
+}
+
+entity = {
+	name = "aow_reformation_protestant"
+	pdxmesh = "empty"
+}
