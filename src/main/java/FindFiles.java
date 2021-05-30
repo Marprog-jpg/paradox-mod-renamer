@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.FilenameFilter;
 
-public class fileFinder{
+public class FindFiles{
     
     public File[] modFiles;
     

@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 public class FileRenamer {
     public static void findAndRenameFiles(){
     
-        Main.ff = new FileFinder();
+        Main.ff = new FindFiles();
         Main.folderNames = Main.ff.convertFileToString(Main.ff.folders);
         
         for(int i = 0; i < Main.folderNames.length;i++){
