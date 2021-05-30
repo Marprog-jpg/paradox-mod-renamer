@@ -7,6 +7,8 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.File;
 
 import java.nio.file.Path;
@@ -25,11 +27,13 @@ public class GUI implements ActionListener{
     private JLabel label;
     private JFrame frame;
     private JPanel panel;
+    public static JButton button;
     
     public GUI(){
         frame = new JFrame();
         
-        JButton button = new JButton("DO IT");
+        button = new JButton("DO IT");
+        button.setEnabled(false);
         button.addActionListener(this);
         //button.addActionListneer(this);
         
@@ -43,12 +47,20 @@ public class GUI implements ActionListener{
         panel.add(button);
         panel.add(label);
         
-        frame.add(panel, BorderLayout.CENTER);
+        frame.add(panel, BorderLayout.SOUTH);
+        //choose directory button
+        Main.chosenDirectory = new ChooseDirectory();
+        frame.add(Main.chosenDirectory, BorderLayout.CENTER);
+        frame.setSize(Main.chosenDirectory.getPreferredSize());
+        //choose directory button end
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("GUI");
         frame.pack();
         frame.setVisible(true);
+        
+        
+
     }
 
     @Override

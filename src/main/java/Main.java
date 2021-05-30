@@ -8,9 +8,9 @@ public class Main {
     public static String[] folderNames;;
     public static String[] modFileNames;
     public static fileFinder ff;
+    public static ChooseDirectory chosenDirectory;
     
-    public static void main (String[] args) throws IOException{
-        dir = new File("D:\\Stuff\\User Folders\\Documents\\NetBeansProjects\\renameFilesParadoxGames\\testingFiles");
+    public static void main (String[] args) throws IOException{     
         new GUI();
     }
 }
