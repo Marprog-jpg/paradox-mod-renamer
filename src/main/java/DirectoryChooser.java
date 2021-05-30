@@ -5,16 +5,25 @@ import java.io.File;
 
 public class DirectoryChooser extends JPanel implements ActionListener {
    
+    public int numberOfChosenFolders = 0;
    public File fileName;
    JButton go;
 
    JFileChooser chooser;
    String choosertitle;
+   int targetFolder; //0 if source folder, 1 if destination folder
+   
 
-  public DirectoryChooser() {
-    go = new JButton("Select Directory");
-    go.addActionListener(this);
-    add(go);
+  public DirectoryChooser(int i) {
+      targetFolder = i;
+      if(targetFolder == 0){
+          go = new JButton("Select Source Directory");
+      }else if(targetFolder == 1){
+          go = new JButton("Select Destination Directory");
+      }
+      
+      go.addActionListener(this);
+      add(go);
    }
 
   public void actionPerformed(ActionEvent e) {            
@@ -24,10 +33,18 @@ public class DirectoryChooser extends JPanel implements ActionListener {
     chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
     chooser.setAcceptAllFileFilterUsed(false);
     
-    if (chooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) { 
-        Main.dir = new File(Main.chosenDirectory.getSelectedFolder());
-        GUI.button.setEnabled(true);
-        System.out.println(Main.dir.getAbsolutePath());
+    if (chooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
+        if(targetFolder == 0){
+            Main.sourceDir = new File(Main.sourceDirectory.getSelectedFolder());
+        }else if(targetFolder == 1){
+            Main.destinationDir = new File(Main.destinationDirectory.getSelectedFolder());
+        }
+        
+        numberOfChosenFolders++;
+        if(numberOfChosenFolders == 1){
+            GUI.button.setEnabled(true);
+        }
+
     }
     else {
       System.out.println("No Selection ");

@@ -2,6 +2,9 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -34,10 +37,17 @@ public class GUI implements ActionListener{
         frame.add(panel, BorderLayout.SOUTH);
         
         //choose directory button
-        Main.chosenDirectory = new DirectoryChooser();
-        frame.add(Main.chosenDirectory, BorderLayout.CENTER);
-        frame.setSize(Main.chosenDirectory.getPreferredSize());
+        Main.sourceDirectory = new DirectoryChooser(0);
+        frame.add(Main.sourceDirectory, BorderLayout.NORTH);
+        frame.setSize(Main.sourceDirectory.getPreferredSize());
         //choose directory button end
+        
+        //choose destination directory
+        Main.destinationDirectory = new DirectoryChooser(1);
+        frame.add(Main.destinationDirectory, BorderLayout.EAST);
+        frame.setSize(Main.destinationDirectory.getPreferredSize());
+        //end choose destination directory
+
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("GUI");
@@ -47,7 +57,11 @@ public class GUI implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {    
-        FileRenamer.findAndRenameFiles();
+        try {
+            FileRenamer.findAndRenameFiles();
+        } catch (IOException ex) {
+            Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
 }
