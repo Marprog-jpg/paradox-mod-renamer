@@ -6,9 +6,9 @@ public class Main {
     protected static File modFile;
     protected static File modDir;
     protected static String[] folderNames;;
-    protected static String[] modFileNames;
-    protected static FileFinder ff;
-    protected static DirectoryChooser chosenDirectory;
+    public static String[] modFileNames;
+    public static FileFinder ff;
+    public static DirectoryChooser chosenDirectory;
     
     public static void main (String[] args) throws IOException{     
         new GUI();
