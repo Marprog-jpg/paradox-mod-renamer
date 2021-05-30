@@ -2,13 +2,13 @@ import java.io.File;
 import java.io.IOException;
 
 public class Main {
-    public static File dir;
-    public static File modFile;
-    public static File modDir;
-    public static String[] folderNames;;
-    public static String[] modFileNames;
-    public static fileFinder ff;
-    public static ChooseDirectory chosenDirectory;
+    protected static File dir;
+    protected static File modFile;
+    protected static File modDir;
+    protected static String[] folderNames;;
+    protected static String[] modFileNames;
+    protected static FileFinder ff;
+    protected static DirectoryChooser chosenDirectory;
     
     public static void main (String[] args) throws IOException{     
         new GUI();
