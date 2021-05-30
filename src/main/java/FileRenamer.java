@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import static java.nio.file.StandardCopyOption.ATOMIC_MOVE;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -32,12 +31,11 @@ public class FileRenamer {
                 folderStructureNoSubdir(i);
             }else if(folderStructure == 1){
                 folderStructureWithSubdir(i);
-            }
-            
-
+            }            
         }
         
         GUI.label.setText("Status: Good to go!");
+        GUI.button.setEnabled(false);
     }
     
     public static void folderStructureNoSubdir(int i) throws IOException{
@@ -54,7 +52,6 @@ public class FileRenamer {
         try {
             FileModifier.removeLineFromFile(Main.modFile, i);
         } catch (IOException ex) {
-            System.out.println("exception in lsitener");
             Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
         }
 
@@ -67,6 +64,7 @@ public class FileRenamer {
 
         //end move file to destination folder
     }
+    
     
     public static void folderStructureWithSubdir(int i) throws IOException{
         Path modFilePath = Paths.get(Main.modFile.getAbsolutePath());
@@ -87,7 +85,6 @@ public class FileRenamer {
         try {
             FileModifier.removeLineFromFile(Main.modFile, i);
         } catch (IOException ex) {
-            System.out.println("exception in lsitener");
             Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
         }
         FileModifier.addTextToFile(Main.modFile, i);      
