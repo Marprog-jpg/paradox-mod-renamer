@@ -40,7 +40,7 @@ public class FileModifier {
         try {
             Files.write(Paths.get(Main.modFile.getAbsolutePath()), ("path=\"mod/" + fileNameWithOutExt + "\"").getBytes(), StandardOpenOption.APPEND);
         }catch (IOException e) {
-            //exception handling left as an exercise for the reader
+            //handle exception here
         }
     }
 }

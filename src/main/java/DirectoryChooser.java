@@ -41,7 +41,6 @@ public class DirectoryChooser extends JPanel implements ActionListener {
             }
 
             GUI.numberOfChosenFolders++;
-            System.out.println(GUI.numberOfChosenFolders);
 
             if(GUI.numberOfChosenFolders == 2){
                 GUI.numberOfChosenFolders = 0;
