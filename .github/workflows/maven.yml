@@ -13,16 +13,16 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/15.0.2-7/x64
+
 
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 15
-      uses: actions/setup-java@v2
+      uses: AdoptOpenJDK/install-jdk@v1
       with:
-        java-version: '15'
-        distribution: 'adopt'
+        version: '15'
+        architecture: x64
+        targets: 'JAVA_HOME'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Release
