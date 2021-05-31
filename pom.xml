@@ -25,6 +25,13 @@
                     </archive>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M1</version>
+                <configuration>
+                    <scmCommentPrefix>[ci skip]</scmCommentPrefix>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
@@ -40,4 +47,12 @@
             <version>2.6</version>
         </dependency>
     </dependencies>
+    <scm>
+        <connection>scm:git:ssh://git@github.com:Marprog-jpg/paradox-mod-renamer.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:Marprog-jpg/paradox-mod-renamer.git</developerConnection>
+        <url>git@github.com:idhub-io/idhub-api.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
+
