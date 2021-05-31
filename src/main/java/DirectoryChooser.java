@@ -4,7 +4,6 @@ import java.awt.*;
 import java.io.File;
 
 public class DirectoryChooser extends JPanel implements ActionListener {
-
     public File fileName;
     JButton go;
 

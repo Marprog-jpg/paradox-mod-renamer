@@ -1,5 +1,6 @@
 import java.io.File;
 
+
 public class FolderStructureChecker {
     protected static File folderOfSpecificMod;
     protected static FindFiles findFile; //change this into something better

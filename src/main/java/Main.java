@@ -12,6 +12,7 @@ public class Main {
     public static DirectoryChooser sourceDirectory;
     public static DirectoryChooser destinationDirectory;
     
+    
     public static void main (String[] args) throws IOException{     
         new GUI();
     }

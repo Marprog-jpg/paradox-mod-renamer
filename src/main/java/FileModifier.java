@@ -31,7 +31,8 @@ public class FileModifier {
 
         inputFile.delete();
         boolean successful = tempFile.renameTo(inputFile);
-        //System.out.println(successful);
+        
+        
 }
     
     public static void addTextToFile(File inputFile, int i){

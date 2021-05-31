@@ -36,6 +36,7 @@ public class FileRenamer {
         
         GUI.label.setText("Status: Good to go!");
         GUI.button.setEnabled(false);
+        
     }
     
     public static void folderStructureNoSubdir(int i) throws IOException{

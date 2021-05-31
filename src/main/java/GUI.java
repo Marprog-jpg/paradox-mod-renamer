@@ -11,6 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+
 public class GUI implements ActionListener{
     protected static int numberOfChosenFolders = 0;
     protected static JLabel label;
