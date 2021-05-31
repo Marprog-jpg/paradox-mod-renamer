@@ -48,8 +48,8 @@
         </dependency>
     </dependencies>
     <scm>
-        <connection>scm:git:git@github.com:Marprog-jpg/paradox-mod-renamer.git</connection>
-        <developerConnection>scm:git:git@github.com:Marprog-jpg/paradox-mod-renamer.git</developerConnection>
+        <connection>scm:git:https://github.com:Marprog-jpg/paradox-mod-renamer.git</connection>
+        <developerConnection>scm:git:https://github.com:Marprog-jpg/paradox-mod-renamer.git</developerConnection>
         <url>https://github.com/Marprog-jpg/paradox-mod-renamer.git</url>
         <tag>HEAD</tag>
     </scm>
