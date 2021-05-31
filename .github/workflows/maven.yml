@@ -13,13 +13,12 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     env:
       JAVA_HOME: /usr/lib/jvm/java-15-openjdk/
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
     - name: Release
       uses: qcastel/github-actions-maven-release@60470300dc4d8e61dfa52f16040e387b430c3541
       with:
