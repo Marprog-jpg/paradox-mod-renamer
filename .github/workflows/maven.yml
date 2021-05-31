@@ -22,5 +22,4 @@ jobs:
     - name: Release
       uses: qcastel/github-actions-maven-release@60470300dc4d8e61dfa52f16040e387b430c3541
       with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        ssh-passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        access-token: ${{ secrets.ACCESS_TOKEN }}
