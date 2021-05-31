@@ -23,3 +23,4 @@ jobs:
       uses: qcastel/github-actions-maven-release@60470300dc4d8e61dfa52f16040e387b430c3541
       with:
         access-token: ${{ secrets.ACCESS_TOKEN }}
+        maven-args: "-Dmaven.javadoc.skip=true -DskipTests -DskipITs -Dmaven.deploy.skip=true"
