@@ -33,7 +33,7 @@
                     <scmCommentPrefix>[ci skip]</scmCommentPrefix>
                 </configuration>
             </plugin>
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
@@ -41,7 +41,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
             
         </plugins>
@@ -61,12 +61,12 @@
         
         
     </dependencies>
-    <scm>
+<!--    <scm>
         <connection>scm:git:https://github.com/Marprog-jpg/paradox-mod-renamer.git</connection>
         <developerConnection>scm:git:https://github.com/Marprog-jpg/paradox-mod-renamer.git</developerConnection>
         <url>https://github.com/Marprog-jpg/paradox-mod-renamer.git</url>
         <tag>HEAD</tag>
-    </scm>
+    </scm>-->
 
 </project>
 
