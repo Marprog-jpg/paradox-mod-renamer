@@ -6,9 +6,10 @@
         <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="renameFilesParadoxGames" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Stuff/User Folders/Downloads/Browser/flatlaf-1.2.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
