@@ -26,15 +26,15 @@ public class FileModifier {
             if(trimmedLine.contains(lineToRemove)) continue;
             writer.write(currentLine + System.getProperty("line.separator"));
         }
-        writer.close(); 
-        reader.close(); 
+        writer.close();
+        reader.close();
 
         inputFile.delete();
         boolean successful = tempFile.renameTo(inputFile);
-        
-        
-}
-    
+
+
+    }
+
     public static void addTextToFile(File inputFile, int i){
         String fileNameWithOutExt = Main.modFile.getName().replaceFirst("[.][^.]+$", "");
         Path myPath = Paths.get(Main.modFile.getAbsolutePath());
