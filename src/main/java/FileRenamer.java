@@ -9,7 +9,6 @@ import java.util.logging.Logger;
 import org.apache.commons.io.FileUtils;
 
 public class FileRenamer {
-    protected static String modFileWithoutExtension;
     protected static int folderStructure; //0 if there is no weird subdirectory, 1 if there is a weird subdirectory
     protected static File modFolderSubdirectory;
 
@@ -51,12 +50,12 @@ public class FileRenamer {
         Main.modFile = new File(Main.modDir.getAbsolutePath() + File.separator + Main.folderNames[i] + ".mod");
 
         try {
-            FileModifier.removeLineFromFile(Main.modFile, i);
+            FileModifier.removeLineFromFile(Main.modFile);
         } catch (IOException ex) {
             Logger.getLogger(SwingGUI.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        FileModifier.addTextToFile(Main.modFile, i);
+        FileModifier.addTextToFile();
 
         //move file to destination folder
 
@@ -84,11 +83,11 @@ public class FileRenamer {
 
         //modify file content
         try {
-            FileModifier.removeLineFromFile(Main.modFile, i);
+            FileModifier.removeLineFromFile(Main.modFile);
         } catch (IOException ex) {
             Logger.getLogger(SwingGUI.class.getName()).log(Level.SEVERE, null, ex);
         }
-        FileModifier.addTextToFile(Main.modFile, i);
+        FileModifier.addTextToFile();
         //end modify file content
 
         //change folder name

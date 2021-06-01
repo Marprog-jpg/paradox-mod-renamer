@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 public class FileModifier {
-    public static void removeLineFromFile(File inputFile, int i) throws FileNotFoundException, IOException{
+    public static void removeLineFromFile(File inputFile) throws IOException{
         File tempFile = new File(inputFile.getParent() + File.separator + "myTempFile.mod");
 
         BufferedReader reader = new BufferedReader(new FileReader(inputFile));
@@ -35,7 +35,7 @@ public class FileModifier {
 
     }
 
-    public static void addTextToFile(File inputFile, int i){
+    public static void addTextToFile(){
         String fileNameWithOutExt = Main.modFile.getName().replaceFirst("[.][^.]+$", "");
         Path myPath = Paths.get(Main.modFile.getAbsolutePath());
         try {

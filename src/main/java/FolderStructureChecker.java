@@ -17,7 +17,7 @@ public class FolderStructureChecker {
         findFile.findDirectoryInDirectory(folderOfSpecificMod);
         subdirectoryFolderNames = findFile.convertFileToString(findFile.directoryInDirectory);
 
-        if(modFileNameWithoutExtension.equals(subdirectoryFolderNames[0]) == true){
+        if(modFileNameWithoutExtension.equals(subdirectoryFolderNames[0])){
             return 1;
         }else{
             return 0;

@@ -8,7 +8,7 @@ public class Main {
     protected static File destinationDir;
     protected static File modFile;
     protected static File modDir;
-    protected static String[] folderNames;;
+    protected static String[] folderNames;
     public static String[] modFileNames;
     public static FindFiles ff;
     public static DirectoryChooser sourceDirectory;

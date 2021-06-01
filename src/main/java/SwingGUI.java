@@ -4,8 +4,7 @@ import com.formdev.flatlaf.FlatLightLaf;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
+
 
 
 public class SwingGUI extends javax.swing.JFrame {
