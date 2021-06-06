@@ -9,6 +9,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class FileModifier {
     public static void removeLineFromFile(File inputFile) throws IOException{
@@ -41,7 +43,7 @@ public class FileModifier {
         try {
             Files.write(Paths.get(Main.modFile.getAbsolutePath()), ("path=\"mod/" + fileNameWithOutExt + "\"").getBytes(), StandardOpenOption.APPEND);
         }catch (IOException e) {
-            //handle exception here
+            Logger.getLogger(SwingGUI.class.getName()).log(Level.SEVERE, null, e);
         }
     }
 }
