@@ -1,14 +1,8 @@
-
-import com.formdev.flatlaf.FlatDarkLaf;
-import com.formdev.flatlaf.FlatLightLaf;
-
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.*;
 
 
 public class SwingGUI extends javax.swing.JFrame {
@@ -82,7 +76,7 @@ public class SwingGUI extends javax.swing.JFrame {
 
         button.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         button.setText("Run");
-        button.setEnabled(false);
+        //button.setEnabled(false);
         button.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,25 +177,40 @@ public class SwingGUI extends javax.swing.JFrame {
     }
 
     private void destinationFieldActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+        SwingGUI.button.setEnabled(true);
     }
 
     private void sourceFieldActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+        SwingGUI.button.setEnabled(true);
     }
 
     private void buttonActionPerformed(java.awt.event.ActionEvent evt) {
         try {
             ProgressBar.viewBar();
-            FileRenamer.findAndRenameFiles();
+            if(SwingGUI.sourceField.getText().isEmpty() || SwingGUI.destinationField.getText().isEmpty()){ //fix this up later
+                String errorText = "";
+                if(SwingGUI.sourceField.getText().isEmpty()){
+                    errorText+="No Source Directory\n";
+                }if(SwingGUI.destinationField.getText().isEmpty()){
+                    errorText+="No Destination Directory";
+                }
+
+                JOptionPane.showMessageDialog(null, errorText,"Missing Directories",
+                    JOptionPane.WARNING_MESSAGE);
+                }
+            else{
+                Main.sourceDir = new File(SwingGUI.sourceField.getText());
+                Main.destinationDir = new File(SwingGUI.destinationField.getText());
+                //System.out.println(Main.sourceDir);
+                //SwingGUI.sourceField.getText();
+                FileRenamer.findAndRenameFiles();
+            }
+
         } catch (IOException ex) {
             Logger.getLogger(SwingGUI.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    /**
-     * @param args the command line arguments
-     */
 
 
     // Variables declaration - do not modify

@@ -32,14 +32,17 @@ public class DirectoryChooser extends JPanel implements ActionListener {
         chooser.setAcceptAllFileFilterUsed(false);
 
         if (chooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
-            SwingGUI.button.setEnabled(false);
+            //SwingGUI.button.setEnabled(false);
             if(targetFolder == 0){
-                Main.sourceDir = new File(Main.sourceDirectory.getSelectedFolder());
-                SwingGUI.sourceField.setText(Main.sourceDir.getAbsolutePath());
+                //Main.sourceDir = new File(Main.sourceDirectory.getSelectedFolder());
+                //SwingGUI.sourceField.setText(Main.sourceDir.getAbsolutePath());
+                SwingGUI.sourceField.setText(Main.sourceDirectory.getSelectedFolder());
+
 
             }else if(targetFolder == 1){
-                Main.destinationDir = new File(Main.destinationDirectory.getSelectedFolder());
-                SwingGUI.destinationField.setText(Main.destinationDir.getAbsolutePath());
+                //Main.destinationDir = new File(Main.destinationDirectory.getSelectedFolder());
+                //SwingGUI.destinationField.setText(Main.destinationDir.getAbsolutePath());
+                SwingGUI.destinationField.setText(Main.destinationDirectory.getSelectedFolder());
             }
 
             Main.numberOfChosenFolders++;
