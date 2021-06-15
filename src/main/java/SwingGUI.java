@@ -6,18 +6,8 @@ import javax.swing.*;
 
 
 public class SwingGUI extends javax.swing.JFrame {
-
-    /**
-     * Creates new form NewJFrame
-     */
     public SwingGUI() {
         initComponents();
-//        new NewJFrame().setVisible(true);
-//        // Set the size of the window.
-//new NewJFrame().setSize(600, 400);
-//
-//// Position the window in the middle of the screen.
-//new NewJFrame().setLocationRelativeTo(null);
     }
 
     /**
@@ -201,8 +191,6 @@ public class SwingGUI extends javax.swing.JFrame {
             else{
                 Main.sourceDir = new File(SwingGUI.sourceField.getText());
                 Main.destinationDir = new File(SwingGUI.destinationField.getText());
-                //System.out.println(Main.sourceDir);
-                //SwingGUI.sourceField.getText();
                 FileRenamer.findAndRenameFiles();
             }
 

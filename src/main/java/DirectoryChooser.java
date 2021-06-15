@@ -1,14 +1,12 @@
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
-import java.io.File;
 
 public class DirectoryChooser extends JPanel implements ActionListener {
-    public File fileName;
     JButton go;
 
     JFileChooser chooser;
-    String choosertitle;
+    String chooserTitle;
     int targetFolder; //0 if source folder, 1 if destination folder
 
 
@@ -27,21 +25,16 @@ public class DirectoryChooser extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         chooser = new JFileChooser();
         chooser.setCurrentDirectory(new java.io.File("."));
-        chooser.setDialogTitle(choosertitle);
+        chooser.setDialogTitle(chooserTitle);
         chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         chooser.setAcceptAllFileFilterUsed(false);
 
         if (chooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
-            //SwingGUI.button.setEnabled(false);
             if(targetFolder == 0){
-                //Main.sourceDir = new File(Main.sourceDirectory.getSelectedFolder());
-                //SwingGUI.sourceField.setText(Main.sourceDir.getAbsolutePath());
                 SwingGUI.sourceField.setText(Main.sourceDirectory.getSelectedFolder());
 
 
             }else if(targetFolder == 1){
-                //Main.destinationDir = new File(Main.destinationDirectory.getSelectedFolder());
-                //SwingGUI.destinationField.setText(Main.destinationDir.getAbsolutePath());
                 SwingGUI.destinationField.setText(Main.destinationDirectory.getSelectedFolder());
             }
 

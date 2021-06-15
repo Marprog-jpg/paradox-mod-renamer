@@ -21,7 +21,6 @@ public class FindFiles{
     }
 
     public void findDirectoryInDirectory(File dir){
-        //System.out.println(dir.getAbsolutePath());
         directoryInDirectory = dir.listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
                 return new File(dir, name).isDirectory();

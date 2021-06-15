@@ -1,12 +1,10 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.logging.Level;
@@ -32,14 +30,11 @@ public class FileModifier {
         reader.close();
 
         inputFile.delete();
-        boolean successful = tempFile.renameTo(inputFile);
-
-
+        tempFile.renameTo(inputFile);
     }
 
     public static void addTextToFile(){
         String fileNameWithOutExt = Main.modFile.getName().replaceFirst("[.][^.]+$", "");
-        Path myPath = Paths.get(Main.modFile.getAbsolutePath());
         try {
             Files.write(Paths.get(Main.modFile.getAbsolutePath()), ("path=\"mod/" + fileNameWithOutExt + "\"").getBytes(), StandardOpenOption.APPEND);
         }catch (IOException e) {
