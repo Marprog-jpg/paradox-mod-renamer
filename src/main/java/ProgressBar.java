@@ -11,8 +11,8 @@ public class ProgressBar {
         int timerDelay = 10;
         new javax.swing.Timer(timerDelay , new ActionListener() {
             private int index = 0;
-            private int maxIndex = 100;
             public void actionPerformed(ActionEvent e) {
+                int maxIndex = 100;
                 if (index < maxIndex) {
                     SwingGUI.progressBar.setValue(index);
                     index++;

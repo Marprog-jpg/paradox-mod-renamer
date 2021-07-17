@@ -23,7 +23,7 @@ public class FileModifier {
         while((currentLine = reader.readLine()) != null) {
             // trim newline when comparing with lineToRemove
             String trimmedLine = currentLine.trim();
-            if(trimmedLine.contains(lineToRemove)) continue;
+            if(trimmedLine.startsWith(lineToRemove)) continue;
             writer.write(currentLine + System.getProperty("line.separator"));
         }
         writer.close();
