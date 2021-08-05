@@ -7,6 +7,9 @@ The program works for two folder structures, one where the .mod file and the mod
 
 I provided an example zip that you can try out.
 
+**REQUIREMENTS**
+- Java 15 and up
+
 **How to use the example zip**
 
 1. Unzip the EXAMPLE.zip file wherever you want.
