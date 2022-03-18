@@ -1,5 +1,5 @@
 # Paradox Mod Renamer
-Used for zipped mod files downloaded from sites such as Skymods which can't just be dropped into a Paradox game mod folder.
+Used for zipped mod files downloaded from sites such as Skymods or Steam Workshop Downloader which can't just be dropped into a Paradox game mod folder.
 
 The program changes the name of the .mod file to the name of the mod folder, adds the correct "path=mod/..." line to them (and deletes the old one) and then moves both the .mod file and the folder containing the mod into a chosen directory.
 
