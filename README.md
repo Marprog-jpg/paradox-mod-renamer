@@ -14,9 +14,7 @@ I provided an example zip that you can try out.
 3. Run the program and select the "SOURCE" folder as the source directory and "DESTINATION" as the destination directory.
 4. Click on "RUN" and look in the "DESTINATION" folder for the result.
 
-**Video tutorial**
-
-https://youtu.be/LU6Xj3CcWwU
+**Video tutorial**: https://youtu.be/LU6Xj3CcWwU
 
 
 **REQUIREMENTS**
