@@ -9,7 +9,7 @@ I provided an example zip that you can try out.
 
 **How to use the example zip**
 
-1. Unzip the EXAMPLE.zip file wherever you want.
+1. Unzip the EXAMPLE.zip (found in the example folder on this page) file wherever you want.
 2. Unzip the zip folders in EXAMPLE/SOURCE/ to EXAMPLE/SOURCE/.
 3. Run the program and select the "SOURCE" folder as the source directory and "DESTINATION" as the destination directory.
 4. Click on "RUN" and look in the "DESTINATION" folder for the result.
