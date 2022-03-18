@@ -15,6 +15,7 @@ I provided an example zip that you can try out.
 4. Click on "RUN" and look in the "DESTINATION" folder for the result.
 
 **Video tutorial**
+
 https://youtu.be/LU6Xj3CcWwU
 
 
